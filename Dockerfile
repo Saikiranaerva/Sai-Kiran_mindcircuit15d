@@ -7,6 +7,6 @@ RUN mvn clean install    ## artifact -- .war
 ## tomcat deploy stage 
 FROM tomcat 
 WORKDIR webapps 
-COPY --from=buildstage /opt/mindcircuit14/target/*.war .
+COPY --from=buildstage /opt/Sai-Kiran_mindcircuit15d/target/*.war .
 RUN rm -rf ROOT && mv *.war ROOT.war
 EXPOSE 8080
