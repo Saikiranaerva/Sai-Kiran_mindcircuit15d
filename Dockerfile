@@ -1,6 +1,6 @@
 FROM maven AS buildstage
-RUN mkdir /opt/mindcircuit14
-WORKDIR /opt/mindcircuit14
+RUN mkdir /opt/Sai-Kiran_mindcircuit15d
+WORKDIR /opt/Sai-Kiran_mindcircuit15d
 COPY . .
 RUN mvn clean install    ## artifact -- .war 
 
