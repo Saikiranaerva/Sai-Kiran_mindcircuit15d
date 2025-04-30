@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: saikiranaervadocker/batch15d:git
+          image: saikiranaervadocker/batch15d:15
           ports:
             - containerPort: 80
